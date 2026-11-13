@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Information and Admissions</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        nav {
+            background-color: #092b50;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+        .banner {
+            background: linear-gradient(120deg, #123c69, #2874a6);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #092b50;
+            margin-bottom: 25px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 260px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2874a6;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ffc107;
+            color: #092b50;
+            padding: 12px 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #e0a800;
+        }
+        #contact {
+            background-color: #e4edf5;
+        }
+        footer {
+            background-color: #092b50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .banner h1 {
+                font-size: 28px;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>NRI DEEEMED TO BE UNIVERSITY</h2>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="banner" id="home">
+        <h1>Welcome to NRI DEEEMED TO BE UNIVERSITY</h1>
+        <p>Learn Today, Lead Tomorrow</p>
+        <a href="#admissions" class="btn">Apply Now</a>
+    </div>
+    <section id="about">
+        <h2>About Our College</h2>
+        <p>
+            NRI DEEEMED TO BE UNIVERSITY is committed to providing quality education
+            and developing students with knowledge, skills and values.
+            We provide a friendly learning environment and modern facilities.
+        </p>
+    </section>
+    <section id="departments">
+        <h2>Our Departments</h2>
+        <div class="container">
+
+            <div class="card">
+                <h3>Computer Science And Engineering</h3>
+                <p>Learn programming, software development and technology.</p>
+            </div>
+
+            <div class="card">
+                <h3>Commerce</h3>
+                <p>Study business, accounting and financial management.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mathematics</h3>
+                <p>Develop logical thinking and problem-solving skills.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="container">
+
+            <div class="card">
+                <h3>B.Sc</h3>
+                <p>Bachelor of Science - 3 Years</p>
+            </div>
+
+            <div class="card">
+                <h3>B.Com</h3>
+                <p>Bachelor of Commerce - 3 Years</p>
+            </div>
+
+            <div class="card">
+                <h3>B.A</h3>
+                <p>Bachelor of Arts - 3 Years</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="faculty">
+        <h2>Our Faculty</h2>
+        <div class="container">
+
+            <div class="card">
+                <h3>Dr. Ravi Kumar</h3>
+                <p>Head of Computer Science Department</p>
+            </div>
+
+            <div class="card">
+                <h3>Mrs. Priya</h3>
+                <p>Commerce Professor</p>
+            </div>
+
+            <div class="card">
+                <h3>Mr. Arun</h3>
+                <p>Mathematics Professor</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>
+            Admissions are open for the academic year.
+            Students can apply by submitting their application,
+            educational certificates and required documents.
+        </p>
+        <a href="#contact" class="btn">Contact for Admission</a>
+    </section>
+    <section id="facilities">
+        <h2>Campus Facilities</h2>
+        <div class="container">
+
+            <div class="card">
+                <h3>Library</h3>
+                <p>A well-equipped library with thousands of books.</p>
+            </div>
+
+            <div class="card">
+                <h3>Computer Lab</h3>
+                <p>Modern computers and internet facilities.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sports</h3>
+                <p>Indoor and outdoor sports facilities for students.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="events">
+        <h2>College Events</h2>
+        <div class="container">
+
+            <div class="card">
+                <h3>Annual Day</h3>
+                <p>Celebrating student achievements and talents.</p>
+            </div>
+
+            <div class="card">
+                <h3>Technical Fest</h3>
+                <p>Technical competitions and innovative projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sports Day</h3>
+                <p>Encouraging teamwork and physical fitness.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><b>College Name:</b>NRI DEEEMED TO BE UNIVERSITY</p>
+        <p><b>Address:</b>Agiripalli, Andhra Pradesh, India</p>
+        <p><b>Phone:</b> 9876543210</p>
+        <p><b>Email:</b>nriu@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 NRI DEEEMED TO BE UNIVERSITY. All Rights Reserved.</p>
+        <p>Designed for Web Development Activity Based Learning</p>
+    </footer>
+
+</body>
+</html>
